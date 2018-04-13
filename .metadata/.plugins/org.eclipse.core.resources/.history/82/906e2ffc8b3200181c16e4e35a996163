@@ -1,0 +1,12 @@
+package hello;
+
+public class PersonneMain {
+
+	public static void main(String[] args) {
+		
+		Personne p1 = new Personne();
+		p1.nom="dz";
+		System.out.println(p1.nom);
+	}
+
+}

@@ -1,0 +1,13 @@
+package week3;
+
+import java.net.URI;
+
+public class DownloadMain {
+
+	public static void main(String[] args) {
+		 // TODO coucou
+		URI.create("http://www.example.com")
+
+	}
+
+}

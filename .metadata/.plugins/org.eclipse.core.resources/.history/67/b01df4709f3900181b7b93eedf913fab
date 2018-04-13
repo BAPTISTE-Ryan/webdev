@@ -1,0 +1,10 @@
+package com.sangriff.java.advanced;
+
+public class Cat extends Animal {
+
+public void makeSound() {
+		
+		System.out.println("mhiaoueu");
+	}
+	
+}

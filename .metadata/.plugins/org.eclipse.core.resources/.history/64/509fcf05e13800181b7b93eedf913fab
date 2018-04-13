@@ -1,0 +1,35 @@
+package hello;
+
+public class Product {
+	
+	//variable d'instances
+	private String title;
+
+	
+	//constructor
+	public Product(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	//methodes
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		/*si o est un product
+		 * si this.title.equals(0.getTitle())
+		 * return true
+		 * */
+		if(! (o instanceof Product) ){return false;}
+		
+		return this.title.equals(((Product)o).getTitle());
+	}
+
+	
+}

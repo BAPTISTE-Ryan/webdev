@@ -1,0 +1,40 @@
+package hello;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+		Product p1 = new Product("voiture rouge","10500");
+		Product p2 = new Product("voiture rouge","56000");
+		System.out.println(p1.equals(p2));
+		System.out.println(p1.equals("toto"));
+
+		HashSet<Product> products = new HashSet<Product>();
+		products.add(p1);
+		products.add(p2);
+		System.out.println(products.size());
+
+	System.out.println("p1hash "+p1.hashCode()+" p2.hash "+p2.hashCode());
+	
+	System.out.println(p1.toString());
+	System.out.println(p2);
+	System.out.println("coco is  nuts");
+	ArrayList<Product> products2 = new ArrayList<Product>();
+	products2.add(p1);
+	products2.add(p1);
+	System.out.println(products2.toString());
+	ProductByTitleLengthComparator comparatorByTitle = new ProductByTitleLengthComparator();
+	System.out.println(comparatorByTitle.compare(p1, p2));
+	Product p3 = new Product("ordinateur","2500");
+	System.out.println(comparatorByTitle.compare(p1, p3));
+	
+	ProductByPriceComparator comparatorByPrice = new ProductByPriceComparator();
+	System.out.println("by price"+comparatorByPrice.compare(p2, p1));
+	
+	}
+
+}

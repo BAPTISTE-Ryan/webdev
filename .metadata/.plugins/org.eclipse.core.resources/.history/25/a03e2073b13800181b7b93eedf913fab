@@ -1,0 +1,25 @@
+package hello;
+
+import java.util.HashMap;
+
+public class MapMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap myMap = new HashMap();
+	
+		myMap.put("thomas","le formateur");
+		myMap.put("m2i","le centre de formation");
+	
+		System.out.println(myMap.get("thomas"));
+		System.out.println(myMap.get("m2i"));
+		HashMap colors = new HashMap();
+		colos.put("white","#FFFFFF");
+		colos.put("black","#000000");
+		colos.put("red",  "#FF0000");
+		colos.put("green","#00FF00");
+		colos.put("blue" ,"#000000");
+	}
+
+}

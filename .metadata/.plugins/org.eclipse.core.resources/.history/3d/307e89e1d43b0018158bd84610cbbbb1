@@ -1,0 +1,10 @@
+package week3;
+
+public class MathUtilMain {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		MathUtil.divide(2, 1);
+	}
+
+}

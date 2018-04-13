@@ -1,0 +1,23 @@
+package com.shahmayim.hello;
+
+import java.util.ArrayList;
+
+public class ToDoListRepository {
+	
+	public ArrayList<ToDo> findTodoListById(int todoListId){
+		if(todoListId!=1) {return null;}
+		
+		
+		ArrayList<ToDo> todolist = new ArrayList<>();
+		todolist.add(new ToDo("Apprendre Java   	  	"));
+		todolist.add(new ToDo("Apprendre HTML					"));
+		todolist.add(new ToDo("Apprendre CSS					"));
+		todolist.add(new ToDo("faire un projet WEB				"));
+		
+		
+		
+		
+		return todolist;
+	}
+
+}

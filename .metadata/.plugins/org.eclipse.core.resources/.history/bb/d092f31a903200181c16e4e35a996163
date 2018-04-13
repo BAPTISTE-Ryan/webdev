@@ -1,0 +1,20 @@
+package hello;
+
+public class TransactionMain {
+
+	public static void main(String[] args) {
+		/*transaction a 2 variables d'instance:
+		son 
+		-type: String débit ou crédit  
+		-amount double  toujours positif
+		Creer 4 transactions : D10 C20 D30 C15
+		*/
+
+		Transaction t1= new Transaction();
+		t1.transac = "debit";
+		t1.amount  = 5;
+		System.out.println(t1.amount);
+		
+	}
+
+}

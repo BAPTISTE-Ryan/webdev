@@ -1,0 +1,18 @@
+package hello;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class queueMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<Cat> catsQueue = new LinkedList<Cat>();
+		
+		Cat c0 = new Cat();
+		catsQueue.add(c0);
+
+	System.out.println(catsQueue.size());
+	}
+
+}

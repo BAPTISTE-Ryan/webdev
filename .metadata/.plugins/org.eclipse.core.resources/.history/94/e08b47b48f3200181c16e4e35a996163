@@ -1,0 +1,17 @@
+package hello;
+
+public class TransactionMain {
+
+	public static void main(String[] args) {
+		/*transaction a 2 variables d'instance:
+		son 
+		-type: String débit ou crédit  
+		-amount double  ou positif
+		Creer 4 transactions : D10 C20 D30 C15
+		*/
+
+		
+		
+	}
+
+}

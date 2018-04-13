@@ -1,0 +1,14 @@
+package hello;
+
+public class Song {
+
+	String title;
+	Personne author;
+	String genre;
+	int duration;
+	
+	public Song(String title, Personne author, String genre, int duration) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

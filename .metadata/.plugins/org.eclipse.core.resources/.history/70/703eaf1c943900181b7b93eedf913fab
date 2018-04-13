@@ -1,0 +1,59 @@
+package hello;
+
+public class Song {
+
+	
+	
+	
+	//instance variables
+	String title;
+	Personne author;
+	String genre;
+	int duration;
+	
+	
+	
+	//constructors
+	public Song(String title, Personne author, String genre, int duration) {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+	
+	//get set methods
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public Personne getAuthor() {
+		return author;
+	}
+	public void setAuthor(Personne author) {
+		this.author = author;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+	public int getDuration() {
+		return duration;
+	}
+	public void setDuration(int duration) {
+
+		this.duration = duration;
+	}
+
+
+	@Override
+	public String toString() {
+		return "["+this.getTitle()+", "+getAuthor()+"]";
+		
+	}
+
+	
+}

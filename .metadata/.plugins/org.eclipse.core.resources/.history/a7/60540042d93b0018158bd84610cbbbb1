@@ -1,0 +1,16 @@
+package week3;
+
+import hello.Article;
+
+public class BoxMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Box b = new Box();
+		b.setElement("string");
+		b.setElement(new Article("article",10));
+		
+
+	}
+
+}

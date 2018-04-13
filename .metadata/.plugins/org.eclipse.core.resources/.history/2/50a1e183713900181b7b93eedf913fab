@@ -1,0 +1,31 @@
+package hello;
+
+public class Product {
+
+	// variable d'instances
+	private String title;
+	private String id;
+	
+	// constructor
+	public Product(String title) {
+		this.title = title;
+	}
+
+	// methodes
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	
+	
+	
+
+	
+	
+	
+
+}

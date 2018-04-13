@@ -1,0 +1,22 @@
+1522746634282	Rename type 'Nombres'
+1522758484957	Rename type 'TicTacToe'
+1522762907108	Rename local variable 'char_char'
+1522762922874	Rename local variable 'char_int_1'
+1522762932863	Rename local variable 'char_int_2'
+1522762948435	Rename local variable 'coordy'
+1522835221863	Encapsulate field 'score'
+1522844447403	Rename method 'resultoftesting'
+1522915885782	Rename local variable 'a'
+1523003714337	Rename type 'ProductByTitleComparator'
+1523006640226	Rename local variable 'products2'
+1523021388054	Delete element
+1523021400368	Delete element
+1523021417868	Delete element
+1523021452961	Move compilation unit
+1523021491801	Move compilation units
+1523021616808	Move compilation units
+1523021626968	Move compilation units
+1523021724927	Rename package 'com.lithurst.java.advanced'
+1523021759273	Rename package 'com.sangriff.java.advanced'
+1523024417974	Delete element
+1523024424866	Copy package

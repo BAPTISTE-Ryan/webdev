@@ -1,0 +1,35 @@
+package hello;
+
+public class MusicMain {
+
+	public static void main(String[] args) {
+
+		Song song1 = new Song("title: String", "author: Person", "genre: String", "duration: int");
+		Song song2 = new Song("title: String", "author: Person", "genre: String", "duration: int");
+		Song song3 = new Song("title: String", "author: Person", "genre: String", "duration: int");
+		
+		PlayList playList = new PlayList();
+		playList.add(song1);
+		playList.add(song2);
+		playList.add(song3);
+		
+		
+		List<Song> songOrderedByTitle = playList.songsByTitle();
+		List<Song> songOrderedByGenre = playList.songsByGenre();
+		List<Song> songOrderedByDuration = playList.songsByDuration();
+		List<Song> songOrderedByAuthorName = playList.songsByAuthorName();
+		
+		// "bonjour".compareTo("le monde")
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

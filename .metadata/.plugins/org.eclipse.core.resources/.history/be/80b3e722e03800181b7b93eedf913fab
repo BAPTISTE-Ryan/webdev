@@ -1,0 +1,23 @@
+package hello;
+
+public class Product {
+	
+	//variable d'instances
+	private String title;
+
+	
+	//constructor
+	public Product(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	//methodes
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+}

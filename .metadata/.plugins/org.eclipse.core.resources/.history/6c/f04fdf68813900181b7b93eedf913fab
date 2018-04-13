@@ -1,0 +1,33 @@
+package hello;
+
+import java.util.Comparator;
+import java.util.List;
+
+public class PlayList implements Comparator<Song>{
+
+	public void add(Song song1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Song> songsByTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Song> songsByDuration() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Song> songsByGenre() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Song> songsByAuthorName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,40 @@
+package hello;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PlayList {
+
+	private Song song1;
+	
+	public void add(Song song1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public ArrayList<Song> songsByTitle() {
+		// TODO Auto-generated method stub
+		
+		
+		return null;
+	}
+
+	public ArrayList<Song> songsByDuration() {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	public ArrayList<Song> songsByGenre() {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	public ArrayList<Song> songsByAuthorName() {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+}

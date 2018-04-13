@@ -1,0 +1,28 @@
+package hello;
+
+public class Nombres {
+
+	public static void main(String[] args) {
+		
+		int i0 =1 ;
+		Integer i1 = new Integer(1);
+		// Wrong i1.parseInt("123")
+		// Right Integer.parseint("123");
+		
+		//methods tatique depuis classe et pas objet
+		Double d1 = new Double(2.0);
+
+		//litte int >> big int constructor "new" or valueOf() 
+		// factory methods , design patterns
+		int i2 = Integer.parseInt("123");
+		System.out.println(i2);
+		System.out.println(Integer.valueOf(123));
+		System.out.println(Integer.SIZE);
+		System.out.println(Long.MAX_VALUE);
+		
+		BigInteger bi1 = new BigInteger("1223568168681681684146");
+		BigInteger bi2 = new BigInteger("1223568168686468168416");
+		
+	}
+
+}
