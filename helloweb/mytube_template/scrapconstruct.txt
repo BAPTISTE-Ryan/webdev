@@ -1,0 +1,39 @@
+﻿
+get and set analogous
+
+Video().{
+              getTitle(),
+              getComments(),
+              getLength(),
+              getLikes(),
+              getDisLikes(),
+              getDate(),
+    
+    
+}
+
+
+User().{
+              getName();
+              getDate();
+              getComments();
+
+}
+
+
+Mainpage().{setVideo()
+                                       .sortByPopularity()
+                                       .sortByDate()
+
+}
+
+
+Comments().{
+                    setContent().setUser()
+                                          .setDate()
+                    setLikes()
+                    setDislikes()
+
+
+}
+
